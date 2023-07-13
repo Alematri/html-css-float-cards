@@ -6,8 +6,6 @@
 
 body{
   font-family: 'Fredoka', sans-serif;
-  text-align: center;
-  margin: 50px 200px;
 }
 
 
@@ -20,6 +18,14 @@ body{
 
 /* HEADER */
 
+.container-header{
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 50px;
+}
+
 header h1{
 color: rgb(212, 17, 108);
 margin-bottom: 50px;
@@ -27,17 +33,40 @@ margin-bottom: 50px;
 
 /* MAIN */
 
-.container{
-  margin-top: 50px;
+.container-main{
+  margin: 50px 15%;
 }
 
-.container .cards{
+.container-main .cards{
   float: none;
   background-color: #0F0E17;
-  width: calc(100% /3);
-  height: 50px;
+  color: white;
+  width: calc(95% /3);
+  height: 100px;
+  display: inline-block;
+  margin: 20px 9px;
 }
 
-.marco-bianchi .img{
+.cardtext{
+  text-align: left;
+  padding-left: 115px;
+  padding-top: 15px;
+}
+
+.cards img{
   float: left;
+  height: 100px;
+}
+
+.name{
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.job{
+  margin-bottom: 5px;
+}
+
+.mail{
+  color: rgb(0, 162, 255);
 }
